@@ -3,4 +3,4 @@
 This repository contains my coursework for **Teksto ir natūralios kalbos apdorojimas**.
 
 ## Author
-Rūta Stunžėnaitė
+Rūta Stunžėnaitė DIEf-24
