@@ -59,4 +59,4 @@ Stage 2 (for each run X = A, B):
 | Run | Topic count | Preprocessing |
 | --- | ---: | --- |
 | A | 3 | Original |
-| B | 6 | Original |
+| B | 4 | Original |

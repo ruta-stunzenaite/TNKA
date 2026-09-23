@@ -15,7 +15,7 @@ MAX_ITER = 15
 MAX_FEATURES = 3000
 MIN_DF = 2
 TOKEN_PATTERN = r"(?u)\b[^\W\d_]{2,}\b"
-K_VALUES = [3, 5]
+K_VALUES = [3, 4]
 
 LT_STOP_WORDS = {
     "ir", "su", "dėl", "po", "kad", "kaip", "kurias", "kurie", "kuri", "kuris",
