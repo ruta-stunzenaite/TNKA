@@ -32,20 +32,20 @@ def load_collection():
     return docs, first20
 
 
-def build_vectorizer(stop_words):
+def build_vectorizer(stop_words, preprocessor=None):
     return CountVectorizer(
         lowercase=True,
+        preprocessor=preprocessor,
         token_pattern=TOKEN_PATTERN,
         stop_words=list(stop_words),
         min_df=MIN_DF,
         max_features=MAX_FEATURES,
     )
 
-
-def run_lda(name, k, docs, first20, stop_words=BASE_STOP_WORDS):
+def run_lda(name, k, docs, first20, stop_words=BASE_STOP_WORDS, preprocessor = None):
     print(f"\n{'=' * 60}\nRun {name}: {k} topics\n{'=' * 60}")
 
-    vec = build_vectorizer(stop_words)
+    vec = build_vectorizer(stop_words, preprocessor)
     X = vec.fit_transform(docs["text"])
     vocab = vec.get_feature_names_out()
     n_terms = np.asarray(X.sum(axis=1)).ravel()
