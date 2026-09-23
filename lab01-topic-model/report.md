@@ -1,9 +1,7 @@
-# Laboratory 1 — Editor's recommendation
+# Lab 1 — LDA Topic Modelling of News Headlines
 
 Name:  Rūta Stunžėnaitė
 Date:  2026-09-25
-
-# Lab 1 — LDA Topic Modelling of News Headlines
 
 **Summary of work, results and conclusions**
 
