@@ -2,19 +2,6 @@
 
 Name:  Rūta Stunžėnaitė
 Date:  2026-09-25
-Run instructions, package versions and saved parameters:
-
-Use approximately 1–2 pages of explanation; put detailed tables in appendices.
-
-## Initial analysis — separate checkpoint file
-
-Before modelling, prepare `initial-analysis.md` or `initial-analysis.pdf` with:
-
-- Counts before/after cleaning, sample size, seed and method for selecting 20 headlines.
-- A table: headline ID | full text | your proposed group(s) | ambiguity and reason.
-- Your proposed topic groups and two predicted modelling problems, with examples.
-
-Do this interpretation without AI. Upload a draft and show it to the instructor at the checkpoint, or show the file directly if draft updates are unavailable. Include that unchanged file in your final ZIP. Do not rewrite it after seeing the model results.
 
 ## 1. Decisions and prediction
 

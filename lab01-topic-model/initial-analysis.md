@@ -43,16 +43,3 @@ headlines_train.csv (`orig_row`).
 | H19 | 445 | Top 7 secrets companies don't want you to know (London) | finance/tech | which companies, what area? |
 | H20 | 5242 | 45 Perėjimų gandai: jaunas puolėjas gali kainuoti rekordą | sports | puolėjas |
 
-- Some headlines have mixed language
-- Some have numbers before them that add zero context
-- There is repetition where the only difference in city or its written in different languages
-- Some are ambiguos because they don't have any clear keywords
-- city names at the back
-
-If city names appear often enough across otherwise-different headlines, the model can latch onto them as a strong shared signal and group a sports headline, a finance headline, and a tech headline together simply because they all mention the same city.
- 
-Headline templates - model can end up assigning almost one topic per template rather than per real-world subject since they share common words.
-
-An English and a Lithuanian version of the same event share almost no vocabulary except the proper noun. Since LDA groups documents by shared words, not shared meaning, these two will very likely be assigned to different topics. (H19, H13)
-
-Headlines like "...analitikų teigimu" or "...po pranešimo" attach a short Lithuanian phrase onto an otherwise English sentence. After filtering there can be a case where there are no words retained if the english part is short. 
