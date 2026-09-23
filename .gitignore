@@ -1,8 +1,6 @@
 # ===== Python =====
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 
 # Virtual environments
 venv/
@@ -10,31 +8,31 @@ env/
 .venv/
 ENV/
 
-# Jupyter Notebook checkpoints (common in NLP work)
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Environment variables / secrets
 .env
 .env.local
 
-# ===== NLP-specific =====
-# Downloaded models/datasets can be huge — don't push them to GitHub
+# ===== Data and models =====
+# Datasets come from course materials; see each lab's README
+data/
+
+# Saved models can be large
 *.model
 *.bin
 *.h5
 *.pkl
 *.joblib
 
-# NLTK/spaCy/HuggingFace cache folders (if stored locally in project)
+# NLTK/spaCy/HuggingFace caches (if stored in the project)
 nltk_data/
 .cache/
 models/
-data/raw/
 
-# ===== Web (HTML/CSS/JS) =====
+# ===== Web (HTML/CSS/JavaScript) =====
 node_modules/
-dist/
-build/
 *.log
 
 # ===== VS Code =====
