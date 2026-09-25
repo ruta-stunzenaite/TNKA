@@ -8,10 +8,10 @@ BASE = Path(__file__).parent
 MODEL_PATH = BASE / "models" / "run_C.joblib"
 
 TOPIC_NAMES = {
-    0: "mixed: tech/sports",
-    1: "mixed: clickbait/tech",
-    2: "mixed: finance/tech",
-    3: "mixed: clickbait/tech",
+    0: "Mixed: finance, security & Lithuanian tech/sports",
+    1: "mixed: Mixed: consumer tech, start-ups & clickbait",
+    2: "mixed: Mixed: markets, football & Apple",
+    3: "mixed: Mostly English clickbait (+ English sports & ML)",
 }
 
 def analyse(headlines, vec, lda):

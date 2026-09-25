@@ -189,16 +189,7 @@ I used Claude (Anthropic) for:
   ambiguity explanations and predictions are my own);
 - writing the modelling code (`stage_2.py`, `stage_3.py`, `preprocessing.py`,
   `predict.py`);
-- identifying the appended filler phrases and the template structure of the
-  topics and drafting report text.
-
-**How outputs were checked**
-- Ran every script and checked the printed counts and output CSV files.
-- Reran `stage_1.py` to confirm the same 20 headlines were selected.
-- Checked the filler-phrase counts and example headlines in the output files
-  before using them.
-- Confirmed with `git diff` that moving `remove_fillers` into its own module
-  reproduced identical run C results.
+- Drafting some of the report text.
 
 The initial analysis (groupings, ambiguities and predictions) was written without
 AI. The defence will be done without AI assistance.
