@@ -1,0 +1,18 @@
+{
+  "built": "2026-09-25",
+  "rows": 4000,
+  "candidates_after_filters": 5368,
+  "source": "Wikidata SPARQL endpoint (https://query.wikidata.org/), items of type film (Q11424)",
+  "selection": "English label, release year known, >=2 genre/subject items, unique title, top 4000 by sitelinks",
+  "columns": {
+    "movie_id": "Wikidata item id (Q...)",
+    "title": "English label",
+    "director": "director(s) separated by ' ; '",
+    "year": "earliest publication year",
+    "genres": "film genres separated by ' ; '",
+    "subjects": "main subjects separated by ' ; ' (often empty)",
+    "countries": "countries of origin separated by ' ; '",
+    "sitelinks": "number of Wikipedia language editions with an article: popularity proxy"
+  },
+  "licence": "Wikidata content is CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)"
+}
